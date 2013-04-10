@@ -74,12 +74,13 @@ table thead th, table tbody tr td { padding: 10px; }
 
 /* --- Buttons --- */
 button 
-{ 
+{
 	position: relative;
-	border: 0; 
+	border: 0;
 	padding: 0;
 	cursor: pointer;
 	overflow: visible; /* removes extra side padding in IE */
+	background-image: url(../images/button_sprite.png);
 }
 
 button::-moz-focus-inner 
